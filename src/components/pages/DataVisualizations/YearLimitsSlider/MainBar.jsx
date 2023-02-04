@@ -49,6 +49,7 @@ const mapStateToProps = (state, ownProps) => {
 
 function MainBar(props) {
   const { lowerLimit, upperLimit, step, years, dispatch, view, office } = props;
+  console.log(years);
   const values = [];
   for (let i = lowerLimit; i <= upperLimit; i += step) {
     values.push(i);

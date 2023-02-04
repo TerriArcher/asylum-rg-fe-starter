@@ -30,6 +30,7 @@ function TimeSeriesAll(props) {
       setRowsForAllDisplay(timeSeriesAllData.rowsForAllDisplay);
     }
   }, [timeSeriesAllData]);
+
   return (
     <div
       className="time-series-all-container"
